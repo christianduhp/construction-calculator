@@ -27,3 +27,9 @@ Este é um projeto de código aberto e, portanto, contribuições são bem-vinda
 
 ## Licença
 Este projeto está sob a licença MIT. Para mais informações, consulte o arquivo LICENSE.
+
+| :placard: Vitrine.Dev | Christian Oliveira |
+| -------------  | --- |
+| :sparkles: Nome        | ** Calculadora de Laje e Forro**
+| :label: Tecnologias | Python
+| :camera: Img         | <img src="https://user-images.githubusercontent.com/86276393/212569133-c845f016-df7f-41ee-a3a1-43bbbc2a6669.png#vitrinedev" alt="vitrine.dev thumb" width="100%"/>
