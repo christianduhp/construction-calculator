@@ -14,11 +14,11 @@ Os valores nas listas são usados para formatar uma string que exibe as sugestõ
 ## Como utilizar
 Para utilizar a calculadora de lajes, siga os seguintes passos:
 
-1. Certifique-se de ter o Python 3 instalado em sua máquina. Caso não tenha, faça o download <a href="https://www.python.org/downloads/">aqui</a> 
+1) Certifique-se de ter o Python 3 instalado em sua máquina. Caso não tenha, faça o download <a href="https://www.python.org/downloads/">aqui</a> 
 
-2. Faça o clone deste repositório em sua máquina usando o seguinte comando: 'git clone https://github.com/christianduhp/calculadora-laje-forro.git'
+2) Faça o clone deste repositório em sua máquina usando o seguinte comando: 'git clone https://github.com/christianduhp/calculadora-laje-forro.git'
 
-3. Execute o arquivo calculadora_lajes.py usando o seguinte comando: 'python calculadora_lajes.py'
+3) Execute o arquivo calculadora_lajes.py usando o seguinte comando: 'python calculadora_lajes.py'
 
 Siga as instruções exibidas na tela para informar as dimensões da laje a ser calculada.
 
