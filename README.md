@@ -28,7 +28,7 @@ Este é um projeto de código aberto e, portanto, contribuições são bem-vinda
 ## Licença
 Este projeto está sob a licença MIT. Para mais informações, consulte o arquivo LICENSE.
 
-## Vitrine
+## Vitrine.Dev
 
 | :placard: Vitrine.Dev |<a href="https://cursos.alura.com.br/vitrinedev/christianoliver">Christian Oliveira</a> |
 | -------------  | --- |
