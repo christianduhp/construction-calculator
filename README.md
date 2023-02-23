@@ -29,7 +29,7 @@ Este é um projeto de código aberto e, portanto, contribuições são bem-vinda
 Este projeto está sob a licença MIT. Para mais informações, consulte o arquivo LICENSE.
 
 ## Vitrine
-| :placard: Vitrine.Dev | Christian Oliveira |
+| :placard: Vitrine.Dev | <a href="https://cursos.alura.com.br/vitrinedev/christianoliver">Christian Oliveira</a> |
 | -------------  | --- |
 | :sparkles: Nome        | **Calculadora de Laje e Forro**
 | :label: Tecnologias | Python
