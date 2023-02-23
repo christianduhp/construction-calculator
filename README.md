@@ -33,4 +33,4 @@ Este projeto está sob a licença MIT. Para mais informações, consulte o arqui
 | -------------  | --- |
 | :sparkles: Nome        | **Calculadora de Laje e Forro**
 | :label: Tecnologias | Python
-| :camera: Img         | <img src="https://vitrinedev" alt="vitrine.dev thumb" width="100%"/>
+| :camera: Img         | <img src="https://github.com/christianduhp/calculadora-laje-forro/blob/main/images/APP - CALCULADORA DE LAJES.png#vitrinedev" alt="vitrine.dev thumb" width="100%"/>
