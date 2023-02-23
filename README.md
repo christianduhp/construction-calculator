@@ -1,9 +1,9 @@
-# Calculadora de Lajes e Forro
+<h1> Calculadora de Lajes e Forro </h1>
 
 Este é um repositório que contém o código-fonte de uma calculadora de lajes e forro para um comércio, escrita em Python.
 
 ## Sobre o projeto
-A calculadora de lajes é um programa de computador desenvolvido para auxiliar no cálculo de lajes de concreto em projetos de construção civil. O objetivo deste projeto é oferecer uma ferramenta simples e eficiente para calcular a quantidade de material necessário para a construção de uma laje.
+A calculadora de lajes é um programa de computador desenvolvido para auxiliar no cálculo de lajes de concreto em projetos de construção civil. O objetivo deste projeto é oferecer uma ferramenta simples e eficiente para calcular a quantidade de material necessário para a construção de uma laje e também a quantidade de peças de forro a partir das medidas fornecidas pelo usuário.
 
 O código é uma aplicação em tkinter para calcular a quantidade de placas de forro ou laje necessárias para cobrir uma área determinada, de acordo com a largura e comprimento informados. As imagens usadas na aplicação e os cálculos para obter as sugestões de quantidade de placas e a área total necessária são definidos no código.
 
