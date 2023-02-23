@@ -29,12 +29,12 @@ Este é um projeto de código aberto e, portanto, contribuições são bem-vinda
 Este projeto está sob a licença MIT. Para mais informações, consulte o arquivo LICENSE.
 
 ## Vitrine
-| :placard: Vitrine.Dev | <a href="https://cursos.alura.com.br/vitrinedev/christianoliver">Christian Oliveira</a> |
+
+| :placard: Vitrine.Dev |<a href="https://cursos.alura.com.br/vitrinedev/christianoliver">Christian Oliveira</a> |
 | -------------  | --- |
 | :sparkles: Nome        | **Calculadora de Laje e Forro**
 | :label: Tecnologias | Python
-| :camera: Img         | ![APP - CALCULADORA DE LAJES ](https://user-images.githubusercontent.com/85292359/220915506-294ea264-d7e9-4c56-b4e2-83026854aa49.png#vitrinedev)
+| :rocket: URL         |<a href="https://replit.com/@christian-duhp/CALCULADORA-DE-LAJE-E-FORRO-DE-PVC">Execute aqui o projeto</a>
+| :fire: Desafio     | Projeto para um comércio
 
-
-
-
+![APP - CALCULADORA DE LAJES ](https://user-images.githubusercontent.com/85292359/220915506-294ea264-d7e9-4c56-b4e2-83026854aa49.png#vitrinedev)
