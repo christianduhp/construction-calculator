@@ -1,4 +1,4 @@
-<h1> Calculadora de Lajes e Forro </h1>
+<h1> Calculadora de Laje e Forro </h1>
 
 Este é um repositório que contém o código-fonte de uma calculadora de lajes e forro para um comércio, escrita em Python.
 
