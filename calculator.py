@@ -1,4 +1,4 @@
-from gui_set import *
+from imports import *
 
 def forro(largura, comprimento):
     text_forro = Label(janela,

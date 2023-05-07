@@ -1,5 +1,4 @@
-from tkinter import *
-from tkinter.font import Font
+from imports import *
 
 janela = Tk()
 janela.title('Calculadora Primos Depósito')
