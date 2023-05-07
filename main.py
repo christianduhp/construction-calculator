@@ -47,44 +47,13 @@ def forro(largura, comprimento):
 
     list_size = len(sugestao_list)
 
-    if list_size == 1:
-        text_output = " SUGESTÃO: {} PEÇAS DE {}m (ÁREA DE {}m²)\n".format(
-            sugestao_list[0], lim_list[0], area_list[0])
+    text_output = ""
+    for i in range(list_size):
+        text_output += " SUGESTÃO {}: {} PEÇAS DE {}m (ÁREA DE {}m²)\n".format(
+            i+1, sugestao_list[i], lim_list[i], area_list[i])
 
-    if list_size == 2:
-        text_output = " SUGESTÃO: {} PEÇAS DE {}m (ÁREA DE {}m²)\n SUGESTÃO: {} PEÇAS DE {}m (ÁREA DE {}m²)\n".format(
-            sugestao_list[0], lim_list[0], area_list[0], sugestao_list[1],
-            lim_list[1], area_list[1])
-
-    if list_size == 3:
-        text_output = " SUGESTÃO: {} PEÇAS DE {}m (ÁREA DE {}m²)\n SUGESTÃO: {} PEÇAS DE {}m (ÁREA DE {}m²)\n SUGESTÃO: {} PEÇAS DE {}m (ÁREA DE {}m²)\n".format(
-            sugestao_list[0], lim_list[0], area_list[0], sugestao_list[1],
-            lim_list[1], area_list[1], sugestao_list[2], lim_list[2],
-            area_list[2])
-
-    if list_size == 4:
-        text_output = " SUGESTÃO: {} PEÇAS DE {}m (ÁREA DE {}m²)\n SUGESTÃO: {} PEÇAS DE {}m (ÁREA DE {}m²)\n SUGESTÃO: {} PEÇAS DE {}m (ÁREA DE {}m²)\n SUGESTÃO: {} PEÇAS DE {}m (ÁREA DE {}m²)\n".format(
-            sugestao_list[0], lim_list[0], area_list[0], sugestao_list[1],
-            lim_list[1], area_list[1], sugestao_list[2], lim_list[2],
-            area_list[2], sugestao_list[3], lim_list[3], area_list[3])
-
-    if list_size == 5:
-        text_output = " SUGESTÃO: {} PEÇAS DE {}m (ÁREA DE {}m²)\n SUGESTÃO: {} PEÇAS DE {}m (ÁREA DE {}m²)\n SUGESTÃO: {} PEÇAS DE {}m (ÁREA DE {}m²)\n SUGESTÃO: {} PEÇAS DE {}m (ÁREA DE {}m²)\n SUGESTÃO: {} PEÇAS DE {}m (ÁREA DE {}m²)\n".format(
-            sugestao_list[0], lim_list[0], area_list[0], sugestao_list[1],
-            lim_list[1], area_list[1], sugestao_list[2], lim_list[2],
-            area_list[2], sugestao_list[3], lim_list[3], area_list[3],
-            sugestao_list[4], lim_list[4], area_list[4])
-
-    if list_size == 6:
-        text_output = " SUGESTÃO: {} PEÇAS DE {}m (ÁREA DE {}m²)\n SUGESTÃO: {} PEÇAS DE {}m (ÁREA DE {}m²)\n SUGESTÃO: {} PEÇAS DE {}m (ÁREA DE {}m²)\n SUGESTÃO: {} PEÇAS DE {}m (ÁREA DE {}m²)\n SUGESTÃO: {} PEÇAS DE {}m (ÁREA DE {}m²)\n SUGESTÃO: {} PEÇAS DE {}m (ÁREA DE {}m²)".format(
-            sugestao_list[0], lim_list[0], area_list[0], sugestao_list[1],
-            lim_list[1], area_list[1], sugestao_list[2], lim_list[2],
-            area_list[2], sugestao_list[3], lim_list[3], area_list[3],
-            sugestao_list[4], lim_list[4], area_list[4], sugestao_list[5],
-            lim_list[5], area_list[5])
-
-    text_forro['text'] = text_output
-    text_forro.place(width=435, height=160, x=25, y=350)
+        text_forro['text'] = text_output
+        text_forro.place(width=435, height=160, x=25, y=350)
 
 
 def laje_largura(largura, comprimento):
