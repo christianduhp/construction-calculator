@@ -1,4 +1,4 @@
-from imports import *
+from tkinter import *
 
 janela = Tk()
 janela.title('Calculadora Primos Depósito')
@@ -22,4 +22,10 @@ img_button_back = PhotoImage(file='assets//button_back.png')
 img_button_info = PhotoImage(file='assets//button_info.png')
 img_button_trilho_comprimento = PhotoImage(file='assets//button_trilho_comprimento.png')
 img_button_trilho_largura = PhotoImage(file='assets//button_trilho_largura.png')
+
+font = "Helvica", "12", "bold"
+fg = "#414092"
+bg ='white'
+
+
 
