@@ -1,51 +1,63 @@
-<h1> Calculadora de Laje e Forro </h1>
+# Construction Calculator
 
-Este é um repositório que contém o código-fonte de uma calculadora de lajes e forro para um comércio, escrita em Python.
+## Overview
 
-## Sobre o projeto
-A calculadora de lajes é um programa de computador desenvolvido para auxiliar no cálculo de lajes de concreto em projetos de construção civil. O objetivo deste projeto é oferecer uma ferramenta simples e eficiente para calcular a quantidade de material necessário para a construção de uma laje e também a quantidade de peças de forro a partir das medidas fornecidas pelo usuário.
+The Construction Calculator is a Python application designed to assist in calculating the number of ceiling panels needed and the area of slabs for construction projects. It includes a graphical user interface (GUI) built using Tkinter.
 
-O código é uma aplicação em tkinter para calcular a quantidade de placas de forro ou laje necessárias para cobrir uma área determinada, de acordo com a largura e comprimento informados. As imagens usadas na aplicação e os cálculos para obter as sugestões de quantidade de placas e a área total necessária são definidos no código.
+### Features
 
-A função "forro" é responsável pelos cálculos e retornar o resultado a ser exibido na janela. A variável "text_forro" é um rótulo vazio que será preenchido com o resultado do cálculo. A variável "forro" é um cálculo da quantidade de placas de forro necessárias por metro, considerando uma largura padrão de 0.2m. A variável "sugestao" é a quantidade de placas necessárias para cobrir uma faixa de largura determinada pela variável "lim" (inicialmente 1), considerando a largura e comprimento informados. A variável "lim" aumenta em 1 a cada iteração, até um limite máximo de 6, e é usada para determinar o número de faixas necessárias para cobrir toda a área. Os valores de "sugestao", "lim" e "area" são adicionados a listas correspondentes para cada iteração, e a quantidade de itens nas listas determina quantas sugestões de quantidade de placas serão exibidas na janela.
+- **Ceiling Panel Calculation**: Calculates the number of ceiling panels required based on given dimensions (width and length).
+- **Slab Area Calculation**: Calculates the area of a slab, considering different specifications such as width, length, alignment direction, and the presence of supporting tracks.
 
-Os valores nas listas são usados para formatar uma string que exibe as sugestões de quantidade de placas e a área total necessária. A variável "text_output" é preenchida com essa string, que é exibida na janela. O número de sugestões exibidas depende da quantidade de itens na lista de sugestões. Se houver apenas uma sugestão, apenas uma linha será exibida. Se houver mais de uma sugestão, cada sugestão será exibida em uma linha separada.
+### Components
 
-## Como utilizar
-Para utilizar a calculadora de lajes, siga os seguintes passos:
+- **ConstructionCalculatorEngine Class**:
+  - Provides methods for ceiling panel and slab area calculations.
+  - Handles different scenarios such as calculating based on dimensions and optional parameters like tracks.
+- **ConstructionCalculatorApp Class**:
+  - GUI interface built using Tkinter.
+  - Allows users to input dimensions and preferences via a user-friendly interface.
+  - Displays results for both ceiling panel and slab area calculations.
 
+## Installation
 
+To use the Construction Calculator, ensure you have Python installed on your system.
 
-1) Certifique-se de ter o Python 3 instalado em sua máquina. Caso não tenha, faça o download <a href="https://www.python.org/downloads/">aqui</a> 
+1. Clone the repository:
+   ```
+   git clone https://github.com/christianduhp/calculadora-laje-forro.git
+   cd construction-calculator
+   ```
 
-2) Faça o clone deste repositório em sua máquina usando o seguinte comando: 
+## Usage
+
+Run the application by executing the `main.py` file:
 
 ```
-git clone https://github.com/christianduhp/calculadora-laje-forro.git
+python main.py
 ```
 
-3) Navegue até a pasta do repositório utilizando o terminal.
-4) Execute o arquivo calculadora_lajes.py usando o seguinte comando: 'python calculadora_lajes.py'
+### Interface
 
-```
-python calculadora_lajes.py
-```
+- **Ceiling Panel Calculation**:
 
-Siga as instruções exibidas na tela para informar as dimensões da laje a ser calculada.
+  - Enter the width and length of the area to be covered.
+  - Click "Calculate" to see suggested panel distributions.
 
-## Contribuindo
-Este é um projeto de código aberto e, portanto, contribuições são bem-vindas! Se você tiver alguma sugestão de melhoria ou encontrar algum problema, sinta-se à vontade para abrir uma <a href="https://github.com/christianduhp/calculadora-laje-forro/issues">issue</a> ou enviar um <a href="https://github.com/christianduhp/calculadora-laje-forro/pulls">pull request</a>.
+- **Slab Area Calculation**:
+  - Choose whether the slab has tracks or not.
+  - Enter dimensions and other specifications as needed.
+  - Click "Calculate" to see the calculated area or track details.
 
-## Licença
-Este projeto está sob a licença MIT. Para mais informações, consulte o arquivo LICENSE.
-
-## Vitrine.Dev
-
-| :placard: Vitrine.Dev |<a href="https://cursos.alura.com.br/vitrinedev/christianoliver">Christian Oliveira</a> |
-| -------------  | --- |
-| :sparkles: Nome        | **Calculadora de Laje e Forro**
-| :label: Tecnologias | Python
-| :rocket: URL         |<a href="https://replit.com/@christian-duhp/CALCULADORA-DE-LAJE-E-FORRO-DE-PVC">Execute aqui o projeto</a>
-| :fire: Desafio     | Projeto para um comércio
+## Screenshots
 
 ![APP - CALCULADORA DE LAJES ](https://user-images.githubusercontent.com/85292359/220915506-294ea264-d7e9-4c56-b4e2-83026854aa49.png#vitrinedev)
+
+## Dependencies
+
+- Python 3.x
+- Tkinter (included in Python standard library)
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
